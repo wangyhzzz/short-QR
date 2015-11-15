@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Author</key>
+	<string>wangyh</string>
+	<key>Builder Version</key>
+	<string>11601.2.7.2</string>
+	<key>CFBundleDisplayName</key>
+	<string>short_url-QRcode</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.indie.wangyh</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0</string>
+	<key>CFBundleVersion</key>
+	<string>1</string>
+	<key>Chrome</key>
+	<dict>
+		<key>Popovers</key>
+		<array>
+			<dict>
+				<key>Filename</key>
+				<string>popover.html</string>
+				<key>Height</key>
+				<integer>216</integer>
+				<key>Identifier</key>
+				<string>ppop</string>
+				<key>Width</key>
+				<integer>216</integer>
+			</dict>
+		</array>
+		<key>Toolbar Items</key>
+		<array>
+			<dict>
+				<key>Identifier</key>
+				<string>xx</string>
+				<key>Image</key>
+				<string>Icon.png</string>
+				<key>Include By Default</key>
+				<true/>
+				<key>Label</key>
+				<string>x</string>
+				<key>Palette Label</key>
+				<string>x</string>
+				<key>Popover</key>
+				<string>ppop</string>
+				<key>Tool Tip</key>
+				<string>生成短网址二维码</string>
+			</dict>
+		</array>
+	</dict>
+	<key>Description</key>
+	<string>自动生成短网址二维码工具</string>
+	<key>DeveloperIdentifier</key>
+	<string>245A5Z9XVD</string>
+	<key>ExtensionInfoDictionaryVersion</key>
+	<string>1.0</string>
+	<key>Permissions</key>
+	<dict>
+		<key>Website Access</key>
+		<dict>
+			<key>Include Secure Pages</key>
+			<true/>
+			<key>Level</key>
+			<string>All</string>
+		</dict>
+	</dict>
+	<key>Website</key>
+	<string>http://www.google.com</string>
+</dict>
+</plist>
