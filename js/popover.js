@@ -21,6 +21,8 @@ function fff(event){
                     height: 200,
                     text: re[0].url_short
                 });
+                $('#short_url').html(re[0].url_short)
+
             }catch(e){
                 $('#qrcode-box').empty();
                 $('#qrcode-box').qrcode({
